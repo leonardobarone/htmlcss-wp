@@ -167,10 +167,15 @@ nav li
     margin: 0px 15px;
 }
 
+/* FOOTER */
 footer
 {   
-    margin-bottom: 20px;
     height: 40px;
-    background-color: #8801fe;
+    text-align: center;
+}
+
+footer span
+{
+    color: red;
 }
 
