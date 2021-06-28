@@ -28,17 +28,16 @@ nav
     display: block;
     padding-right: 15px;
     width: 150px;
-    border-right: 1px solid #ccc3c0;
+    border-right: 1px solid gray;
     margin-bottom: 30px;
 }
 
 nav li
 {
-    font-size: 14px;
     display: inline-block;
-    text-decoration: none;
+    font-weight: lighter;
     text-transform: uppercase;
-    color: #ccc3c0;
+    color: gray;
     margin: 0px 5px;
 }
 
@@ -70,25 +69,34 @@ nav li
 {
     width: 60%;
     position: absolute;
-    bottom: 50px;   
-    left: 50px;
+    bottom: 75px;   
+    left: 75px;
     color: white;
+}
+
+.title h1
+{
+    line-height: 32px;
+}
+
+.title p{
+    line-height: 20px
 }
 
 /* MAIN-TOP */
 .main-top
 {   
     margin-bottom: 20px;
-    line-height: 28px;
+    line-height: 20px;
 }
 .main-top > span{
-    color: #ccc3c0;
-    font-weight: 100;
+    color: gray;
+    font-weight: lighter;
 }
 
 .main-top > h2
 {
-    font-weight: 800;
+    font-weight: bold;
 }
 
 /* ROW WITH CLEARFIX */
@@ -124,8 +132,17 @@ nav li
     background-image: url("../img/img-3.jpg");
 }
 
-.row h4{
+.row h4
+{
+    font-weight: bold;
     margin: 10px 0px;
+}
+
+.row p
+{   
+    line-height: 20px;
+    font-weight: lighter;
+    color: gray;
 }
 
 .clearfix::after{
