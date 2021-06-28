@@ -41,6 +41,11 @@ nav li
     margin: 0px 5px;
 }
 
+li a{
+    text-decoration: none;
+    color: gray;
+}
+
 /* BANNER */
 .banner
 {   
