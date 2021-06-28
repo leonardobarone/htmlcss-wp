@@ -78,21 +78,32 @@ nav li
 }
 /* FINE BANNER */
 
+/* MAIN-TOP */
+
+.main-top
+{
+    line-height: 28px;
+}
+.main-top > span{
+    color: #ccc3c0;
+    font-weight: 100;
+}
+
+.main-top > h2
+{
+    font-weight: 800;
+}
+/* FINE MAIN-TOP */
+
 main
 {
-    background-color: #0089f8;
+    /* background-color: #0089f8; */
     margin-bottom: 20px;
 }
 
 .row
 {
     padding: 20px 0px;
-}
-
-.main-top
-{
-    height: 50px;
-    background-color: #abcfe7;
 }
 
 .clearfix::after{
