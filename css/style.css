@@ -16,7 +16,6 @@ body
 {
     font-family: 'Noto Sans JP', sans-serif; 
 }
-/* FINE COMMON */
 
 /* NAVBAR */
 nav
@@ -42,7 +41,6 @@ nav li
     color: #ccc3c0;
     margin: 0px 5px;
 }
-/* FINE NAVBAR */
 
 /* BANNER */
 .banner
@@ -76,12 +74,11 @@ nav li
     left: 50px;
     color: white;
 }
-/* FINE BANNER */
 
 /* MAIN-TOP */
-
 .main-top
-{
+{   
+    margin-bottom: 20px;
     line-height: 28px;
 }
 .main-top > span{
@@ -93,17 +90,42 @@ nav li
 {
     font-weight: 800;
 }
-/* FINE MAIN-TOP */
 
-main
+/* ROW WITH CLEARFIX */
+.row
 {
-    /* background-color: #0089f8; */
     margin-bottom: 20px;
 }
 
-.row
+.img
+{   
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img-left
 {
-    padding: 20px 0px;
+    background-image: url("../img/img-1.jpg");
+}
+
+.img-center
+{
+    background-image: url("../img/banner-2.jpg");
+}
+
+.img-right
+{
+    background-image: url("../img/img-3.jpg");
+}
+
+.row h4{
+    margin: 10px 0px;
 }
 
 .clearfix::after{
@@ -114,7 +136,6 @@ main
 
 .col-left, .col-center, .col-right
 {
-    background-color: #abcfe7;
     float: left;
 }
 
@@ -135,3 +156,4 @@ footer
     height: 40px;
     background-color: #8801fe;
 }
+
