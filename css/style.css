@@ -16,6 +16,7 @@ body
 {
     font-family: 'Noto Sans JP', sans-serif; 
 }
+/* FINE COMMON */
 
 /* NAVBAR */
 nav
@@ -49,12 +50,29 @@ nav li
 
 /* FINE NAVBAR */
 
-
+/* HEADER */
 header
-{
+{   
+    position: relative;
+    background-image: url("../img/banner.jpg");
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     height: 400px;
-    background-color: #e1d67a;
     margin-bottom: 20px;
+    border: 1px solid black;
+}
+
+.title
+{
+    height: 175px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding-left: 50px;
+    padding-right: 100px;
+    color: white;
 }
 
 main
